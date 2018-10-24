@@ -219,6 +219,9 @@ footer a {
       flex-direction: row-reverse;
       align-items: center;
   }
+  .section1{
+      padding: 50px 0;
+  }
 }
 @media (min-width: 992px) {
   .container {
