@@ -18,7 +18,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font: 300 16px/1.6 "Helvetica Neue", Helvetica, Arial;
+  font: normal 16px/1.6 "Helvetica Neue", Helvetica, Arial;
   color: #444;
   transition: all 0.4s 0.3s ease-in;
   margin: 0;
@@ -49,6 +49,7 @@ img {
 .left,
 .right {
   width: 100%;
+  padding: 0 10px;
 }
 .section1-right {
   padding-right: 15px;
@@ -70,9 +71,22 @@ img {
 .right-logo .logo-mobile {
   width: 70px;
 }
+
+button {
+    border-radius: 25px;
+    text-transform: uppercase;
+    padding: 18.5px;
+    font-weight: bold;
+    border: none;
+  }
+  /*form*/
 .form-title {
-  color: #fff !important;
-  font-size: 1.75em;
+    color: #fff !important;
+    font-size: 1.75em;
+  }
+form button{
+    background-color: #e6ad3c;
+    color: #000;
 }
 /*header*/
 header {
@@ -110,10 +124,6 @@ header {
 .section4 button {
   background-color: #fff;
   color: #000;
-  border-radius: 25px;
-  text-transform: uppercase;
-  padding: 18.5px;
-  font-weight: bold;
 }
 .section4-inner {
   background-color: #e6ad3c;
