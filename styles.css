@@ -88,6 +88,11 @@ form button{
     background-color: #e6ad3c;
     color: #000;
 }
+form input{
+    padding:5px 3px;
+    font-size:1.3em;
+    width: 100%;
+}
 /*header*/
 header {
   margin: 20px 0;
@@ -164,7 +169,7 @@ footer a {
     max-width: 540px;
   }
   .left-logo img {
-    width: 280px;
+    width: 262px;
   }
   .section1 img {
     position: absolute;
@@ -180,7 +185,7 @@ footer a {
   }
   .logo-desktop {
     display: block;
-    width: 370px;
+    width: 300px;
   }
   .logo-mobile {
     display: none;
