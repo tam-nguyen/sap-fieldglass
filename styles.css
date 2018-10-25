@@ -1,3 +1,94 @@
+@font-face {
+    font-family: "SAPBold";
+    src:          url("fonts/BentonSansBold.woff2") format("woff2"),
+         url("fonts/BentonSansBold.woff") format("woff"),
+         url("fonts/BentonSansBold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SAPBold";
+    src:          url("fonts/BentonSansBoldItalic.woff2") format("woff2"),
+         url("fonts/BentonSansBoldItalic.woff") format("woff"),
+         url("fonts/BentonSansBoldItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SAPMedium";
+    src:          url("fonts/BentonSansMedium.woff2") format("woff2"),
+         url("fonts/BentonSansMedium.woff") format("woff"),
+         url("fonts/BentonSansMedium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SAPMedium";
+    src:          url("fonts/BentonSansMediumItalic.woff2") format("woff2"),
+         url("fonts/BentonSansMediumItalic.woff") format("woff"),
+         url("fonts/BentonSansMediumItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SAPRegular";
+    src:          url("fonts/BentonSansRegular.woff2") format("woff2"),
+         url("fonts/BentonSansRegular.woff") format("woff"),
+         url("fonts/BentonSansRegular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SAPRegular";
+    src:          url("fonts/BentonSansRegularItalic.woff2") format("woff2"),
+         url("fonts/BentonSansRegularItalic.woff") format("woff"),
+         url("fonts/BentonSansRegularItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SAPBook";
+    src:          url("fonts/BentonSansBook.woff2") format("woff2"),
+         url("fonts/BentonSansBook.woff") format("woff"),
+         url("fonts/BentonSansBook.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SAPBook";
+    src:          url("fonts/BentonSansBookItalic.woff2") format("woff2"),
+         url("fonts/BentonSansBookItalic.woff") format("woff"),
+         url("fonts/BentonSansBookItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SAPLight";
+    src:          url("fonts/BentonSansLight.woff2") format("woff2"),
+         url("fonts/BentonSansLight.woff") format("woff"),
+         url("fonts/BentonSansLight.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SAPLight";
+    src:          url("fonts/BentonSansLightItalic.woff2") format("woff2"),
+         url("fonts/BentonSansLightItalic.woff") format("woff"),
+         url("fonts/BentonSansLightItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+
 .clear:before,
 .clear:after {
   content: " ";
@@ -18,7 +109,12 @@ html {
   font-size: 62.5%;
 }
 body {
-  font: normal 16px/1.6 "Helvetica Neue", Helvetica, Arial;
+
+  
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: normal;
+  font-family: SAPRegular;
   color: #444;
   transition: all 0.4s 0.3s ease-in;
   margin: 0;
@@ -180,6 +276,10 @@ footer a {
   }
 }
 @media (min-width: 768px) {
+    body{
+        font-size: 18px;
+        line-height: 1.8;
+    }
   .container {
     max-width: 720px;
   }
@@ -200,6 +300,10 @@ footer a {
   }
   .section1 ul {
     margin-top: 155px;
+  }
+  .section1 h1{
+      font-size: 2.7em;
+      line-height: 1.2;
   }
   .form-title {
     font-size: 1.875em;
