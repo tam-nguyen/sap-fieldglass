@@ -1,93 +1,92 @@
 @font-face {
-    font-family: "SAPBold";
-    src:          url("fonts/BentonSansBold.woff2") format("woff2"),
-         url("fonts/BentonSansBold.woff") format("woff"),
-         url("fonts/BentonSansBold.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "SAPBold";
+  src: url("fonts/BentonSansBold.woff2") format("woff2"),
+    url("fonts/BentonSansBold.woff") format("woff"),
+    url("fonts/BentonSansBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "SAPBold";
-    src:          url("fonts/BentonSansBoldItalic.woff2") format("woff2"),
-         url("fonts/BentonSansBoldItalic.woff") format("woff"),
-         url("fonts/BentonSansBoldItalic.ttf") format("truetype");
-    font-weight: normal;
-    font-style: italic;
+  font-family: "SAPBold";
+  src: url("fonts/BentonSansBoldItalic.woff2") format("woff2"),
+    url("fonts/BentonSansBoldItalic.woff") format("woff"),
+    url("fonts/BentonSansBoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: "SAPMedium";
-    src:          url("fonts/BentonSansMedium.woff2") format("woff2"),
-         url("fonts/BentonSansMedium.woff") format("woff"),
-         url("fonts/BentonSansMedium.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "SAPMedium";
+  src: url("fonts/BentonSansMedium.woff2") format("woff2"),
+    url("fonts/BentonSansMedium.woff") format("woff"),
+    url("fonts/BentonSansMedium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "SAPMedium";
-    src:          url("fonts/BentonSansMediumItalic.woff2") format("woff2"),
-         url("fonts/BentonSansMediumItalic.woff") format("woff"),
-         url("fonts/BentonSansMediumItalic.ttf") format("truetype");
-    font-weight: normal;
-    font-style: italic;
+  font-family: "SAPMedium";
+  src: url("fonts/BentonSansMediumItalic.woff2") format("woff2"),
+    url("fonts/BentonSansMediumItalic.woff") format("woff"),
+    url("fonts/BentonSansMediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: "SAPRegular";
-    src:          url("fonts/BentonSansRegular.woff2") format("woff2"),
-         url("fonts/BentonSansRegular.woff") format("woff"),
-         url("fonts/BentonSansRegular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "SAPRegular";
+  src: url("fonts/BentonSansRegular.woff2") format("woff2"),
+    url("fonts/BentonSansRegular.woff") format("woff"),
+    url("fonts/BentonSansRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "SAPRegular";
-    src:          url("fonts/BentonSansRegularItalic.woff2") format("woff2"),
-         url("fonts/BentonSansRegularItalic.woff") format("woff"),
-         url("fonts/BentonSansRegularItalic.ttf") format("truetype");
-    font-weight: normal;
-    font-style: italic;
+  font-family: "SAPRegular";
+  src: url("fonts/BentonSansRegularItalic.woff2") format("woff2"),
+    url("fonts/BentonSansRegularItalic.woff") format("woff"),
+    url("fonts/BentonSansRegularItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: "SAPBook";
-    src:          url("fonts/BentonSansBook.woff2") format("woff2"),
-         url("fonts/BentonSansBook.woff") format("woff"),
-         url("fonts/BentonSansBook.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "SAPBook";
+  src: url("fonts/BentonSansBook.woff2") format("woff2"),
+    url("fonts/BentonSansBook.woff") format("woff"),
+    url("fonts/BentonSansBook.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "SAPBook";
-    src:          url("fonts/BentonSansBookItalic.woff2") format("woff2"),
-         url("fonts/BentonSansBookItalic.woff") format("woff"),
-         url("fonts/BentonSansBookItalic.ttf") format("truetype");
-    font-weight: normal;
-    font-style: italic;
+  font-family: "SAPBook";
+  src: url("fonts/BentonSansBookItalic.woff2") format("woff2"),
+    url("fonts/BentonSansBookItalic.woff") format("woff"),
+    url("fonts/BentonSansBookItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: "SAPLight";
-    src:          url("fonts/BentonSansLight.woff2") format("woff2"),
-         url("fonts/BentonSansLight.woff") format("woff"),
-         url("fonts/BentonSansLight.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "SAPLight";
+  src: url("fonts/BentonSansLight.woff2") format("woff2"),
+    url("fonts/BentonSansLight.woff") format("woff"),
+    url("fonts/BentonSansLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "SAPLight";
-    src:          url("fonts/BentonSansLightItalic.woff2") format("woff2"),
-         url("fonts/BentonSansLightItalic.woff") format("woff"),
-         url("fonts/BentonSansLightItalic.ttf") format("truetype");
-    font-weight: normal;
-    font-style: italic;
+  font-family: "SAPLight";
+  src: url("fonts/BentonSansLightItalic.woff2") format("woff2"),
+    url("fonts/BentonSansLightItalic.woff") format("woff"),
+    url("fonts/BentonSansLightItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
 }
-
 
 .clear:before,
 .clear:after {
@@ -109,8 +108,6 @@ html {
   font-size: 62.5%;
 }
 body {
-
-  
   font-size: 16px;
   line-height: 1.6;
   font-weight: normal;
@@ -126,6 +123,9 @@ html {
 }
 img {
   width: 100%;
+}
+button:hover {
+  cursor: pointer;
 }
 .container {
   width: 100%;
@@ -169,25 +169,25 @@ img {
 }
 
 button {
-    border-radius: 25px;
-    text-transform: uppercase;
-    padding: 18.5px;
-    font-weight: bold;
-    border: none;
-  }
-  /*form*/
-.form-title {
-    color: #fff !important;
-    font-size: 1.75em;
-  }
-form button{
-    background-color: #e6ad3c;
-    color: #000;
+  border-radius: 25px;
+  text-transform: uppercase;
+  padding: 18.5px;
+  font-weight: bold;
+  border: none;
 }
-form input{
-    padding:5px 3px;
-    font-size:1.3em;
-    width: 100%;
+/*form*/
+.form-title {
+  color: #fff !important;
+  font-size: 1.75em;
+}
+form button {
+  background-color: #e6ad3c;
+  color: #000;
+}
+form input {
+  padding: 5px 3px;
+  font-size: 1.3em;
+  width: 100%;
 }
 /*header*/
 header {
@@ -211,6 +211,10 @@ header {
   margin-top: 0;
   font-size: 2.25em;
   line-height: 1.2em;
+}
+.section1 img {
+  margin-left: -30%;
+  width: 130%;
 }
 
 /*section2*/
@@ -259,6 +263,9 @@ footer .social a i:first-child {
 footer a {
   color: #fff;
 }
+.footer-left {
+  font-size: 0.875em;
+}
 
 @media (min-width: 576px) {
   .container {
@@ -268,18 +275,18 @@ footer a {
     width: 262px;
   }
   .section1 img {
-    position: absolute;
-    left: -30px;
+    /* position: absolute;
+    left: -30px; */
   }
-  .section1 ul {
+  /* .section1 ul {
     margin-top: 210px;
-  }
+  } */
 }
 @media (min-width: 768px) {
-    body{
-        font-size: 18px;
-        line-height: 1.8;
-    }
+  body {
+    font-size: 18px;
+    line-height: 1.8;
+  }
   .container {
     max-width: 720px;
   }
@@ -294,80 +301,61 @@ footer a {
     display: flex;
     justify-content: space-between;
   }
-  .section1 img {
-    width: 402px;
-    position: absolute;
-    left: -30px;
-  }
-  .section1 ul {
-    margin-top: 155px;
-  }
-  .section1 h1{
-      font-size: 2.7em;
-      line-height: 1.2;
+  .section1 h1 {
+    font-size: 2.7em;
+    line-height: 1.2;
   }
   .form-title {
     font-size: 1.875em;
     margin: 0;
   }
-  .section2 .container, .section3-inner-inner{
-      display: flex;
+  .section2 .container,
+  .section3-inner-inner {
+    display: flex;
   }
-  .section2-right-inner-item, .section4-inner{
-      display: flex;
-      align-items: center;
+  .section2-right-inner-item,
+  .section4-inner {
+    display: flex;
+    align-items: center;
   }
   .section2-right-inner-item * {
-      padding:14px 5px;
+    padding: 14px 5px;
   }
-  .section2{
-      padding: 80px 0;
+  .section2 {
+    padding: 80px 0;
   }
-  .section4 button{
-      margin-left: 30px;
-      height: 100%;
+  .section4 button {
+    margin-left: 30px;
+    height: 100%;
   }
-  footer .container{
-      display: flex;
-      flex-direction: row-reverse;
-      align-items: center;
+  footer .container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
   }
-  .section1{
-      padding: 50px 0;
+  .section1 {
+    padding: 50px 0;
   }
-  .section1-right{
-      width: 40%;
+  .section1-right {
+    width: 40%;
   }
-  .section1-left{
-      width: 50%;
+  .section1-left {
+    width: 50%;
   }
-  .percent-number{
+  .percent-number {
     font-size: 4.7em;
+  }
+  .head-line-title {
+    font-size: 1.7em;
   }
 }
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
-  .section1 img {
-    width: 504px;
-    position: absolute;
-    left: -30px;
-  }
-  .section1 ul {
-    margin-top: 190px;
-  }
 }
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
-  }
-  .section1 img {
-    width: 720px;
-    position: absolute;
-    left: -30px;
-  }
-  .section1 ul {
-    margin-top: 256px;
   }
 }
