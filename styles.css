@@ -292,6 +292,7 @@ footer a {
   }
   .section1-inner {
     display: flex;
+    justify-content: space-between;
   }
   .section1 img {
     width: 402px;
@@ -316,6 +317,9 @@ footer a {
       display: flex;
       align-items: center;
   }
+  .section2-right-inner-item * {
+      padding:14px 5px;
+  }
   .section2{
       padding: 80px 0;
   }
@@ -330,6 +334,15 @@ footer a {
   }
   .section1{
       padding: 50px 0;
+  }
+  .section1-right{
+      width: 40%;
+  }
+  .section1-left{
+      width: 50%;
+  }
+  .percent-number{
+    font-size: 4.7em;
   }
 }
 @media (min-width: 992px) {
