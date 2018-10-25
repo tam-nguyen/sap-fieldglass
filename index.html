@@ -57,11 +57,34 @@
                         <!--section1 right-->
                         <div class="section1-right right">
                             <form>
-                                <p class="form-title">Downd the Report</p>
-                                <p><label>First Name:</label><br /><input type="text" placeholder="" name="firstname" /></p>
+                                <p class="form-title">Downdoad the Report</p>
+                                <span class="text-notice">All fields are required.</span>
+                                <p><label>First Name</label><br /><input type="text" placeholder="" name="firstname"
+                                        required /></p>
 
-                                <p></p> <label>Last Name:</label><br /><input type="text" placeholder="" name="lastname" /></p>
-                                <p><label>First Name:</label><br /><input type="text" placeholder="" name="firstname" /></p>
+                                <p></p> <label>Last Name</label><br /><input type="text" placeholder="" name="lastname" /></p>
+                                <p><label>Company</label><br /><input type="text" placeholder="" name="firstname" /></p>
+                                <p><label>Select Industry</label><br />
+                                    <select>
+                                        <option>value 1</option>
+                                        <option>value 2</option>
+                                        <option>value 3</option>
+                                    </select>
+
+                                </p>
+                                <p><label>Work Email</label><br /><input type="text" placeholder="" name="wrok email" /></p>
+                                <span class="text-notice">*I agree that SAP Fieldglass can use my name and contact
+                                    details to communicate with me about SAP Fieldglass products and industry topics in
+                                    accordance with the SAP Fieldglass Privacy Statement.</span>
+                                <div class="byemailphone">
+                                    <div class="byemailphone-item">
+                                        <input type="checkbox" name="byemail" value="byemail">By Email
+                                    </div>
+                                    <div class="byemailphone-item">
+                                        <input type="checkbox" name="byphone" value="byphone">By Phone
+                                    </div>
+
+                                </div>
                                 <button type="submit">get the report</button>
                             </form>
                         </div>

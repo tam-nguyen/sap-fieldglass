@@ -183,11 +183,29 @@ button {
 form button {
   background-color: #e6ad3c;
   color: #000;
+  margin-top: 30px;
 }
-form input {
+form input,
+form select {
   padding: 5px 3px;
   font-size: 1.3em;
   width: 100%;
+}
+form select {
+  background-color: #fff;
+  border-radius: 0;
+}
+.text-notice {
+  font-size: 12px;
+  line-height: 17px;
+  display: block;
+}
+.byemailphone {
+  display: flex;
+  margin-top: 25px;
+}
+.byemailphone input {
+  width: initial;
 }
 /*header*/
 header {
